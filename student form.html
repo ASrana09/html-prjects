@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> student registration form </title>
+</head>
+<body style="background-color: rgb(64, 208, 148) ; border: 2px  pink;">
+    <h1 style="font-family:'Aparajita', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;"> STUDENT REGISTRATION FORM </h1>
+    <table align="center" >
+        <tr>
+            <td> FIRST NAME </td>
+            <td><input type="text" name="First name" maxlength="20"/>
+    </td>
+</tr>
+<tr>
+<td> LAST NAME </td>
+<td> <input type="text" name ="Last name" maxlength="15"/>
+</td>
+</tr>
+<tr>
+    <td> D.O.B </td>
+<td>
+    <input type="Date" id="Birthday" name="Birthday">
+</td>
+</tr>
+<tr>
+<td> EMAIL ID </td>
+<td> <input type="text" name="Email ID" maxlength="100" /></td>
+</tr>
+
+<tr>
+    <td> MOBILE NUMBER </td>
+<td>
+<input type="text" name="Mobile Number" maxlength="10" />
+</td>
+</tr>
+
+<tr>
+    <td> GENDER </td>
+<td>
+      male <input type="radio" name="gender" value="male" />
+      female <input type="radio" name="gender" value="female" />
+</td>
+</tr>
+
+<tr>
+    <td> ADDRESS <br><br><br> </td>
+<td><textarea name="address" id="address" cols="30" rows="5"></textarea>
+</td>
+</tr>
+
+<tr>
+    <td> STATE </td>
+<td><input type="text"name="state" maxlength="20" />
+</td>
+</tr>
+
+<tr>
+    <td> CITY </td>
+<td><input type="text" name="city" maxlength="10" />
+</td>
+</tr>
+
+<tr>
+    <td> PINCODE </td>
+<td><input type="text" name="pin code" maxlength="10" />
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+    <table>
+<tr>
+<td align="center"><b> sr. no. </b></td>
+<td align="center"><b> Examination </b></td>
+<td align="center"><b> Board </b></td>
+<td align="center"><b> Percentage </b></td>
+<td align="center"><b> Year of passing </b></td>
+</tr>
+  <tr>
+    <td>1</td>
+    <td>class X</td>
+    <td><input type="text" name="class X board" maxlength="20"></td>
+<td><input type="text" name="class X percentage" maxlength="30" /></td>
+    <td><input type="text" name="class X year of passing" maxlength="30" /></td>
+    </tr>
+        <tr>
+   <td>2</td>
+    <td> class XII</td>
+            <td><input type="text" name="class XII Board" maxlength="20"></td>
+            <td><input type="text" name="class XII percentage" maxlength="30" /></td>
+            <td><input type="text" name="class XII year of passing" maxlength="30"></td>  
+    </tr>
+    <tr>
+    <td></td>
+    <td></td>
+    <td align="center"></td>
+    <td align="center"></td>
+</tr>
+        </table>
+</td>
+</tr>
+<tr>
+<td>COURSES<br />APPLIED FOR</td>
+<td>
+BCA
+<input type="radio" name="Course BCA" value="BCA">
+MCA
+<input type="radio" name="Course MCA" value="MCA">
+BTECH
+<input type="radio" name="Course BTECH" value="BTECH">
+MTECH
+<input type="radio" name="Course MTECH" value="MTECH">
+</td>
+</tr>
+<tr>
+    <td colspan="2" align="center">
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    </td>
+    </tr>
+    </table>
+    </form>
+</body>
+</html>
